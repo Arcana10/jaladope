@@ -20,7 +20,7 @@ export default function UserShortCut () {
             </View>
 
             <View style={userbox.info}>
-                <Text style={userbox.name}>{isUser.name} {isUser.lastName}</Text>
+                <Text style={userbox.name}>{isUser.data.name_student} {isUser.data.last_student}</Text>
                 <Text style={userbox.grade}>"{isUser.grade} {isUser.section}"</Text>
             </View>
 
